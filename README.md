@@ -41,7 +41,7 @@ Arquivos de testes em si, todos ficam nele
 ## /cypress/fixtures
 Arquivos que geram dados para serem utilizados ao longo dos testes. Os famosos (mocks)
 
-## /cypress/fixtures
+## /cypress/support
 Arquivos auxiliares dos testes.
 
 # Configurações do Cypress para autocomplete e snippets
