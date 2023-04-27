@@ -25,6 +25,9 @@ No exemplo abaixo executamos os testes em uma resolução diferente da padrão, 
 ```
 > **Nota:** `altura` e `largura` devem sem informados como números inteiros.
 
+### Demonstração 
+Neste mesmo repositório, navegue até `/cypress/videos`. Lá você encontrará o demonstrativo nas duas resoluções de tela especificadas. Confira também o `packge.json`, na parte de scripts e personalize a resolução da tela.
+
 
 # Arquivos gerados por padrão
 Conhecendo a estrutura de pastas do Cypress.
