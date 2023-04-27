@@ -1,30 +1,25 @@
 # Inicializar um projeto Node
-    ``` npm
-        npm init --y
-    ```
+    npm init --y
+ 
 # Instalar o Cypress
-    ``` npm
-        npm i -D cypress
-        npm i -D cypress@12.5.0
-    ```
+    npm i -D cypress@12.5.0
+
 
 # Abrir o Cypress
-    ``` npm
-        npx cypress open 
-    ```
-> Abre a interface gráfica do Cypress.
 
-    ``` npm
-        npx cypress run 
-    ```
-> Executa os testes em "headless mode".
-> Opções de execução em linha: <a href="https://docs.cypress.io/guides/guides/command-line#How-to-run-commands" target="_blank"></a>
+    npx cypress open 
+    
+> Abre a interface gráfica do Cypress.
+    
+    npx cypress run 
+    
+> Executa os testes em "headless mode". Opções de execução em linha: <a href="https://docs.cypress.io/guides/guides/command-line#How-to-run-commands" target="_blank">Commands Line Guide</a>
 
 ## Linha de comando
 A linha de comando permite receber parâmetros ara a execução.
 No exemplo abaixo executamos os testes em uma resolução diferente da padrão, emulando um dispositivo móvel.
 
-``` npm
+``` 
     npx cypress run --config viewportHeight={altura},viewportWidth={largura}
     npx cypress run --config viewportHeight=1000,viewportWidth=600
 ```
@@ -57,7 +52,7 @@ Arquivos auxiliares dos testes.
 
 # Comandos básicos
 Alguns dos comandos básicos do Cypress.
-> Documentação completa em <a href="https://docs.cypress.io/" target="_blank"></a>
+> Documentação completa em <a href="https://docs.cypress.io/" target="_blank">Cypress.io</a>
 
 ## describe()
 Agrupa as funções de teste que devem ser executadas (`it`)
