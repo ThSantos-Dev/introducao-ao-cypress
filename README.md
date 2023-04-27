@@ -42,13 +42,14 @@ Arquivos que geram dados para serem utilizados ao longo dos testes. Os famosos (
 Arquivos auxiliares dos testes.
 
 # Configurações do Cypress para autocomplete e snippets
-1. Crie um arquivo chamado `jsconfig.json` na rain do projeto com o seguinte conteúdo:
+1. Crie um arquivo chamado `jsconfig.json` na raiz do projeto com o seguinte conteúdo:
 
     ``` json
         {
             "include": ["./node_modules/cypress", "cypress/**/*.js"]
         }
     ```
+2. Reinicie o Visual Studio Code.
 
 # Comandos básicos
 Alguns dos comandos básicos do Cypress.
